@@ -4,9 +4,9 @@
  capitalize the first letter of each word in the string then
  return the capitalized string.
  --- Examples
-   capitalize('a short sentence') --> 'A Short Sentence'
-   capitalize('a lazy fox') --> 'A Lazy Fox'
-   capitalize('look, it is working!') --> 'Look, It Is Working!'
+   capitalization('a short sentence') --> 'A Short Sentence'
+   capitalization('a lazy fox') --> 'A Lazy Fox'
+   capitalization('look, it is working!') --> 'Look, It Is Working!'
 '''
 
 def capitalization(string):
