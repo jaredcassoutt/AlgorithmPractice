@@ -6,7 +6,7 @@
  of five print “buzz”. For numbers which are multiples
  of both three and five print “fizzbuzz”.
  --- Example
-   fizzbuzz(5);
+   fizzbuzz(5)
    1
    2
    fizz
