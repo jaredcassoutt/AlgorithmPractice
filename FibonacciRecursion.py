@@ -28,6 +28,6 @@ def Memoize(func):
 @Memoize
 def FibonacciRecursion(n):
     #utilizes recursion to return Fibonacci number for n
-    if n < 2:
-        return n
+    if n < 3:
+        return n - 1
     return FibonacciRecursion(n-1) + FibonacciRecursion(n-2)
