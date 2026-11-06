@@ -15,7 +15,7 @@
 '''
 
 def fizzbuzz(n):
-    for value in range(1,n):
+    for value in range(1,n+1):
         if value % 3 == 0 and value % 5 == 0:
             print('fizzbuzz')
         elif value % 3 == 0:
